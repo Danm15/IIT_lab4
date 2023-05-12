@@ -16,4 +16,5 @@ jobs:
         username: ${{ secrets.DOCKER_LOGIN }}
         password: ${{ secrets.DOCKER_PAT }}
         repository: overtort/lab45
+        platforms: linux/amd64,linux/arm64
         tags: latest, ${{ github.run_number }}
