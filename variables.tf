@@ -17,7 +17,7 @@ variable "instance_type" {
 
 variable "ami_id" {
         description = "The AMI to use"
-        default = "ami-064087b8d355e9051"
+        default = "ami-0a79730daaf45078a"
 }
 
 variable "number_of_instances" {
@@ -27,9 +27,9 @@ variable "number_of_instances" {
 
 
 variable "ami_key_pair_name" {
-        default = "lab4_key"
+        default = "keyForLab4"
 }
 
 variable "sg_id" {
-  default = "sg-09524b33f7d697ca6"
+  default = "sg-0e81d7dcee8679eef"
 }
